@@ -1,6 +1,9 @@
 <div class="card">
-  <%= link_to image_tag(tweet.image, class: :card__img ), tweet_path(tweet.id) %>
+  <%= link_to image_tag(tweet.image, class: :card__img ), tweets_path(tweet.id) %>
   <div class="card__body">
-    <%= link_to tweet.title, tweet_path(tweet.id), class: :card__title%>
+      <p class="card__summary">
+      <%= tweet.text %>
+    </p>
+    <%= link_to tweet.title, tweets_path(tweet.id), class: :card__title%>
   </div>
 </div>
