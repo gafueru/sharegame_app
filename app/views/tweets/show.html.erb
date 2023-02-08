@@ -1,3 +1,15 @@
+<p class="prototype__hedding">
+  <%= @tweet.title%>
+</p>
+<%= link_to  @tweet.user.name, user_path(@tweet.user.id), class: :tweet__user %>
+
+<% if user_signed_in? && current_user.id == @tweet.user_id%>
+  <div class="prototype__manage">
+    <%= link_to "編集する", root_path(@tweet.id), method: :get, class: :tweet__btn %>
+    <%= link_to "削除する", root_path(@tweet.id), method: :delete, class: :tweet__btn %>
+  </div>
+<% end %>
+
 <div class="tweet__image">
   <%= image_tag @tweet.image %>
 </div>
