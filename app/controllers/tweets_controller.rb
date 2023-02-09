@@ -1,5 +1,7 @@
 class TweetsController < ApplicationController
 before_action :set_tweet, only: [:show, :edit, :update, :destroy]
+before_action :authenticate_user!, only: [:delete, :new, :edit]
+before_action :move_to_index, only: :edit
 
   def index
     @tweets = Tweet.all
@@ -46,5 +48,12 @@ before_action :set_tweet, only: [:show, :edit, :update, :destroy]
 
   def set_tweet
     @tweet = Tweet.find(params[:id])
+  end
+
+  def move_to_index
+    @tweet = Tweet.find(params[:id])
+    unless @tweet.user == current_user
+      redirect_to action: :index
+    end
   end
 end
