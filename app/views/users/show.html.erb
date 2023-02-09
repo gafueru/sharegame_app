@@ -1,0 +1,17 @@
+<h2 class="page-heading">
+  <p><%= @user.name %>さんの情報</p>
+</h2>
+<table class="table">
+  <tbody>
+    <tr>
+      <th class="table__col1">名前</th>
+      <td class="table__col2"><%= @user.name %></td>
+    </tr>
+  </tbody>
+</table>
+<h2 class="page-heading">
+  <p><%= @user.name %>さんの投稿内容</p>
+</h2>
+<div class="user__card">
+  <%= render partial: 'tweets/tweet', collection: @user.tweets %>
+</div>
