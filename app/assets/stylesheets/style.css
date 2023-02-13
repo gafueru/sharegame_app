@@ -75,3 +75,14 @@ a {
 .nav__logout:hover{
   opacity: 0.5;
 }
+
+/* フォーム */
+
+.field{
+  margin: 10px 0;
+}
+
+.actions{
+  margin-bottom: 40px;
+}
+
