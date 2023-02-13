@@ -3,6 +3,7 @@ require 'rails_helper'
 RSpec.describe Tweet, type: :model do
   before do
     @tweet = FactoryBot.build(:tweet)
+    @user = FactoryBot.build(:user)
   end
   describe '投稿' do
     context '投稿できるとき' do
