@@ -108,11 +108,7 @@ a {
 .tweet__wrapper{
   min-height: calc(100vh - 161px);
 }
-.tweet__hedding{
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
+
 .tweet__user{
   display: block;
   font-size: 16px;
