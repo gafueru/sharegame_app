@@ -103,3 +103,68 @@ a {
 .card__img {
   margin-bottom: 16px;
 }
+
+/* 詳細ページ */
+.tweet__wrapper{
+  min-height: calc(100vh - 161px);
+}
+.tweet__hedding{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.tweet__user{
+  display: block;
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+  text-decoration: underline;
+}
+.tweet__image{
+  width: 40%;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+.tweet__detail{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+.detail__title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.tweet__manage{
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+.tweet__btn{
+  display: block;
+  padding: 0.4em 1.6em;
+  text-decoration: none;
+  user-select: none;
+  margin: 0 4px;
+}
+
+
+.tweet__comments{
+  padding: 20px;
+  margin: 28px 0 40px 0;
+}
+
+.comments_lists{
+  padding-left: 20px;
+}
+
+.comments_list{
+  list-style-type: square;
+  padding-bottom: 5px;
+}
+
+.comment_user{
+  font-size: 16px;
+  color: #999;
+  text-decoration: underline;
+}
