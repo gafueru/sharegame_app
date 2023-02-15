@@ -4,7 +4,7 @@ before_action :authenticate_user!, only: [:delete, :new, :edit]
 before_action :move_to_index, only: :edit
 
   def index
-    @tweets = Tweet.all
+    @tweet = Tweet.all
   end
 
   def new
