@@ -1,4 +1,4 @@
-# アプロケーション名
+# アプリケーション名
 
 sharegame_app
 
@@ -58,7 +58,7 @@ https://docs.google.com/spreadsheets/d/1qeAPwkQZ1RY24AhjEk_e_I1PI-Fgtz8gc9w9sbT3
 [![Image from Gyazo](https://i.gyazo.com/07a31a3da83be60aed85be761f545ad2.gif)](https://gyazo.com/07a31a3da83be60aed85be761f545ad2)
 
 3.編集機能
-投稿した内容を修正することができます・(編集が完了したらトップページに遷移します。)
+投稿した内容を修正することができます。(編集が完了したらトップページに遷移します。)
 
 [![Image from Gyazo](https://i.gyazo.com/46dfc62f3eb0011b7aa0ad4eeeb174f9.gif)](https://gyazo.com/46dfc62f3eb0011b7aa0ad4eeeb174f9)
 
