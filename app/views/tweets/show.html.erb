@@ -28,7 +28,7 @@
   <% if user_signed_in? %>
     <%= form_with model: [@tweet, @comment],local: true do |f|%>
       <div class="field">
-        <%= f.label :comment, "コメント" %><br />
+        <%= f.label :comment, "褒めポイント" %><br />
         <%= f.text_field :content, id:"comment_content" %>
       </div>
       <div class="actions">
@@ -36,6 +36,7 @@
       </div>
     <% end %>
   <% end %>
+  褒めリスト
   <ul class="comments_lists">
     <li class="comments_list">
       <% @comments.each do |comment| %>

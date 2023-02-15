@@ -43,6 +43,18 @@ https://sharegame-app.onrender.com
 
 https://docs.google.com/spreadsheets/d/1qeAPwkQZ1RY24AhjEk_e_I1PI-Fgtz8gc9w9sbT32-w/edit#gid=982722306
 
+# 実装した機能についての画像やGIFおよびその説明
+
+1.ユーザー登録機能
+
+[![Image from Gyazo](https://i.gyazo.com/3a3a08de9d05c92d99fda5a8b06bdced.gif)](https://gyazo.com/3a3a08de9d05c92d99fda5a8b06bdced)
+
+2.投稿機能
+
+[![Image from Gyazo](https://i.gyazo.com/07a31a3da83be60aed85be761f545ad2.gif)](https://gyazo.com/07a31a3da83be60aed85be761f545ad2)
+
+3.編集機能
+
 # データベース設計
 
 [![Image from Gyazo](https://i.gyazo.com/c2bd322f38a6b1f26bdb9a41104494a0.png)](https://gyazo.com/c2bd322f38a6b1f26bdb9a41104494a0)
