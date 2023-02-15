@@ -47,13 +47,32 @@ https://docs.google.com/spreadsheets/d/1qeAPwkQZ1RY24AhjEk_e_I1PI-Fgtz8gc9w9sbT3
 
 1.ユーザー登録機能
 
+ユーザー登録することによって投稿することができるようになります。(登録していなくても投稿を見ることはできます。)
+
 [![Image from Gyazo](https://i.gyazo.com/3a3a08de9d05c92d99fda5a8b06bdced.gif)](https://gyazo.com/3a3a08de9d05c92d99fda5a8b06bdced)
 
 2.投稿機能
 
+タイトル、アピールポイント、画像を入力することで投稿できるようになります。
+
 [![Image from Gyazo](https://i.gyazo.com/07a31a3da83be60aed85be761f545ad2.gif)](https://gyazo.com/07a31a3da83be60aed85be761f545ad2)
 
 3.編集機能
+投稿した内容を修正することができます・(編集が完了したらトップページに遷移します。)
+
+[![Image from Gyazo](https://i.gyazo.com/46dfc62f3eb0011b7aa0ad4eeeb174f9.gif)](https://gyazo.com/46dfc62f3eb0011b7aa0ad4eeeb174f9)
+
+4.コメント機能
+
+コメントした内容とコメントしたユーザーが分かります。
+
+[![Image from Gyazo](https://i.gyazo.com/7ba8f64c2ee19102446c3b33bd4ab038.gif)](https://gyazo.com/7ba8f64c2ee19102446c3b33bd4ab038)
+
+5.削除機能
+
+投稿中のものが削除できます。(投稿者のみが削除することができます。)
+
+[![Image from Gyazo](https://i.gyazo.com/0c814cbf3d76c6861b6899475ccad10d.gif)](https://gyazo.com/0c814cbf3d76c6861b6899475ccad10d)
 
 # データベース設計
 
